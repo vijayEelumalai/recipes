@@ -1,0 +1,15 @@
+img{
+    position: relative;
+    width: 660px;
+    height: 470px;
+    margin: 0 10px;
+}
+.title{
+    font-family:sans-serif;
+    margin: 10px 10px;
+    font-weight: 500;
+}
+.desc{
+    font-size: 15px;
+    margin: 10px;
+}

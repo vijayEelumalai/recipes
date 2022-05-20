@@ -1,0 +1,12 @@
+<div>
+    <a class="list-group-item mt-2" [routerLink]="[id]" routerLinkActive="active">
+        <div>
+    <h3 class="list-group-item-heading hd3">{{recipe.name}}</h3>
+    <p class="list-group-item-text desc">{{recipe.description | shorten}}</p>
+        </div>
+        <div>
+            <img [src]="recipe.imagePath" alt="{{recipe.name}}" >
+        </div>
+    </a>
+       </div>
+       
